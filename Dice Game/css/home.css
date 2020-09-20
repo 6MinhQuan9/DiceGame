@@ -1,0 +1,24 @@
+.home-container{
+    background-image: url(/img/homePage.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.home-container #home-header{
+    font-size: 40px;
+    color:  rgb(124, 6, 139);
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.home-container .rank-list{
+    color: white;
+}
+.home-container .game-action{
+    display: flex;
+    flex-direction: column;
+}
+.game-action .btn{
+    width: 16em;
+    height: 10em;
+}

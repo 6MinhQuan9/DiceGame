@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.input-wrapper input{
+    padding: 10px 20px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    outline: none;
+    width: 30em;
+}
+.input-wrapper{
+    margin-bottom: 10px;
+}
+.btn{
+    padding: 8px 20px;
+    background-color: rgb(124, 6, 139);
+    color: white;
+    border-radius: 3px;
+    border-width: 1px;
+    border: none;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.error{
+    color: red;
+}

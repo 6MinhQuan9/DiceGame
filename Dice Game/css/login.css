@@ -1,0 +1,26 @@
+.login-container{
+    height: 100vh;
+    background-image: url(/img/RegisterPage.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+.login-container #login-form{
+    width: 30%;
+    padding: 40px 10px;
+    margin-top: 8em;
+    margin-right: 6em;
+}
+.form-action{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.login-container #login-header{
+    font-size: 40px;
+    color:  rgb(124, 6, 139);
+    text-align: center;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
