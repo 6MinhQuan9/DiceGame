@@ -1,24 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
 .home-container{
     background-image: url(/img/homePage.jpg);
     background-size: cover;
     height: 100vh;
 }
 .home-container #home-header{
-    font-size: 40px;
-    color:  rgb(124, 6, 139);
     text-align: center;
-    font-weight: 600;
-    font-family: sans-serif;
-    margin-bottom: 20px;
+    color: white;
+    font-family: 'Righteous',serif;
+    font-size: 8em;
+    text-shadow: .03em .03em 0 rgb(175, 44, 214,1);
 }
 .home-container .rank-list{
-    color: white;
+    width: 300px;
+    margin-left: 1em;
+    border-bottom: 20px solid #8d0b87;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.home-container .rank-list h3{
+    color: #fff;
+    background: #8d0b87;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.home-container .rank-list ul{
+    position: relative;
+    background:  #8d0b87;
+}
+.home-container .rank-list ul li{
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    background: #e99fe5;
+    box-shadow: 0 5 px 25px rgba(0,0,0,.1);
+    transition: transform 0.5s;
+}
+.home-container .rank-list ul:hover li{
+    opacity: 0.2;
+}
+.home-container .rank-list ul li:hover{
+    transform:  scale(1.1);
+    z-index: 100;
+    background:  #52034e;
+    box-shadow:  0 5px 25px rgba(0,0,0,.2);
+    color: #fff;
+    opacity: 1;
+}
+.home-container .rank-list ul li .number{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background:  #8d0b87;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    transform: translateY(-2px);
+}
+.home-container .rank-list ul li:hover .number{
+    background: #fff;
+    color:  #8d0b87;
+}
+.home-container .game-action #btn-play{ 
+    color: #2196f3;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+    letter-spacing: 4px;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.home-container .game-action #btn-play:hover{ 
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+}
+.home-container .game-action #btn-createRoom{ 
+    color: #2196f3;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+    letter-spacing: 4px;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.home-container .game-action #btn-createRoom:hover{ 
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
 }
 .home-container .game-action{
     display: flex;
     flex-direction: column;
+    float:right;
 }
 .game-action .btn{
-    width: 16em;
-    height: 10em;
+    width: 20em;
+    height: 8em;
 }
+
